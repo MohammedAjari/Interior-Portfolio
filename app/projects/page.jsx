@@ -6,23 +6,37 @@ export default function Projects() {
     const projects = [
         {
             id: 1,
+            name: 'Perfect living room for family time',
+            description: 'Living room with a clean and comfortable design for your family, charming with a modern design. ',
+            image: '/image2/28.jpg',
+        },
+        {
+            id: 2,
             name: 'Drawing room for family time ',
             description: 'Bedroom with a clean and comfortable design for your family, charming with a modern design. ',
             image: '/image2/8.jpg',
             link: '',
         },
+        
         {
-            id: 2,
+            id: 3,
             name: 'Kitchen look modern and clean',
             description: 'kitchen look modern and clean. charming with a modern design. ',
             image: '/image2/12.jpg',
             link: '',
         },
+        
         {
-            id: 3,
-            name: 'Perfect living room for family time',
-            description: 'Living room with a clean and comfortable design for your family, charming with a modern design. ',
-            image: '/image2/5.jpg',
+            id: 4,
+            name: 'The Ideal Dining Space for Quality Family Time',
+            description: "Discover a Dining Room that Blends Clean Comfort with Modern Charm for Your Family's Enjoyment. ",
+            image: '/image2/35.jpg',
+        },
+        {
+            id: 5,
+            name: 'The Ideal Dining Space for Quality Family Time',
+            description: "Discover a Dining Room that Blends Clean Comfort with Modern Charm for Your Family's Enjoyment. ",
+            image: '/image2/38.jpg',
         },
     ];
     return (

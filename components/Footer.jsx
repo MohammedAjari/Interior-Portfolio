@@ -32,9 +32,12 @@ export default function Footer() {
                         <h2 className="pb-4 text-xl font-semibold" style={{fontFamily: 'Montserrat, sans-serif'}}>CONNECT</h2>
                         <div className="flex flex-col ">
                             <Link className="py-1 hover:underline" href="https://www.facebook.com/ShaardaInteriors01/">Facebook</Link>
+                            <Link className="py-1 hover:underline" href="https://www.youtube.com/@shaardaInterior">Youtube</Link>
                             <Link className="py-1 hover:underline" href="https://www.linkedin.com/in/shaardainterior/">Linkedin</Link>
                             <Link className="py-1 hover:underline" href="https://twitter.com/sutharnaresh3">Twitter</Link>
                             <Link className="py-1 hover:underline" href="https://www.instagram.com/shaarda_interiors/">Instagram</Link>
+
+                            {/* https://www.youtube.com/@shaardaInterior */}
                         </div>
                     </div>
 

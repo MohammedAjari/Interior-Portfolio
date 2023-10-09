@@ -49,13 +49,25 @@ export default function CatalogSwiperSection() {
 
             >
                 <SwiperSlide>
+                    <Image src="/image2/27.jpg" alt="LOGO" width={520} height={200} className="w-full" />
+                </SwiperSlide>
+                <SwiperSlide>
                     <Image src="/image2/4.jpg" alt="LOGO" width={520} height={200} className="w-full" />
+                </SwiperSlide>
+                <SwiperSlide>
+                    <Image src="/image2/32.jpg" alt="LOGO" width={520} height={200} className="w-full" />
                 </SwiperSlide>
                 <SwiperSlide>
                     <Image src="/image2/6.jpg" alt="LOGO" width={520} height={220} className="w-full" />
                 </SwiperSlide>
                 <SwiperSlide>
                     <Image src="/image2/14.jpg" alt="LOGO" width={520} height={220} className="w-full" />
+                </SwiperSlide>
+                <SwiperSlide>
+                    <Image src="/image2/41.jpg" alt="LOGO" width={520} height={220} className="w-full" />
+                </SwiperSlide>
+                <SwiperSlide>
+                    <Image src="/image2/42.jpg" alt="LOGO" width={520} height={220} className="w-full" />
                 </SwiperSlide>
                 <SwiperSlide>
                     <Image src="/image2/12.jpg" alt="LOGO" width={520} height={220} className="w-full" />
