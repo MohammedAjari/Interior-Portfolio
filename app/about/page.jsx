@@ -1,6 +1,8 @@
 import Image from 'next/image'
 import '../fonts.css';
 import { TbArrowUpRight } from "react-icons/tb"
+import YouTube from 'react-youtube';
+
 export default function About() {
     return (
         <div>
@@ -16,8 +18,18 @@ export default function About() {
                     </p>
                 </div>
                 <div className="items-center lg:flex gap-x-8 pb-5 lg:mb-5">
-                    <div className="w-full">
-                        <Image src="/image2/38.jpg" width={700} height={700} alt="" className="" />
+                    <div className="">
+                        {/* <YouTube videoId='4iEKJMglcoc' /> */}
+                        <iframe
+                            className='video'
+                            title='Youtube player'
+                            sandbox='allow-same-origin allow-forms allow-popups allow-scripts allow-presentation'
+                            src={`https://youtube.com/embed/4iEKJMglcoc?autoplay=1`}
+                            width={400}
+                            height={360}
+                        >
+                        </iframe>
+                        {/* <Image src="/image2/38.jpg" width={700} height={700} alt="" className="" /> */}
                     </div>
                     <div className="">
                         <p className="pb-8 tracking-wide" style={{ fontFamily: 'Open Sans', fontSize: 'large' }}>

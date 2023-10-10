@@ -9,28 +9,28 @@ export default function CatalogueSection() {
             catagory: "BEDROOM SETUP",
             title: "Cossy Bedroom Setup",
             image: "/image2/1.jpg",
-            description: "family drowing room with a clean and comfortable design for your family.",
+            description: "Comfortable and Cozy Bedroom Design for Relaxation.",
         },
         {
             id: "02",
             catagory: "KITCHING SETUP",
             title: "Neat & Clean Kitchen",
             image: "/image/kitchen1.jpg",
-            description: "family drowing room with a clean and comfortable design for your family.",
+            description: "Comfortable and Clean Kitchen Setup for Your Family.",
         },
         {
             id: "03",
             catagory: "DRAWING SETUP",
             title: "Family Drawing Room",
             image: "/image2/9.jpg",
-            description: "family drowing room with a clean and comfortable design for your family.",
+            description: "family drawing room with a clean and comfortable design for your family.",
         },
         {
             id: "04",
             catagory: "LIVING SETUP",
             title: "Clean Family Room",
             image: "/image2/7.jpg",
-            description: "family drowing room with a clean and comfortable design for your family.",
+            description: "A inviting living space for your family.",
         },
     ]
 

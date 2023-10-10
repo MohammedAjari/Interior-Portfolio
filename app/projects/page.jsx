@@ -34,11 +34,14 @@ export default function Projects() {
         },
         {
             id: 5,
-            name: 'The Ideal Dining Space for Quality Family Time',
-            description: "Discover a Dining Room that Blends Clean Comfort with Modern Charm for Your Family's Enjoyment. ",
+            name: 'The Perfect Sacred Space for Spiritual Moments',
+            description: "Explore a Sacred Space That Harmonizes Serenity with Timeless Grace for Spiritual Bliss.",
             image: '/image2/38.jpg',
         },
     ];
+
+    
+
     return (
         <div className="">
             <div className="bg-[url('/image/backgroundproject.jpg')] bg-center bg-cover ">
@@ -56,9 +59,8 @@ export default function Projects() {
                             <p className="py-4 " style={{fontFamily:'Open Sans' , fontSize: 'large'}}>{project.description}</p>
                         </div>
                     </div>
-
-
                 ))}
+                
             </div>
         </div>
     )
