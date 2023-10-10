@@ -1,7 +1,5 @@
-import Image from 'next/image'
 import '../fonts.css';
 import { TbArrowUpRight } from "react-icons/tb"
-import YouTube from 'react-youtube';
 
 export default function About() {
     return (
