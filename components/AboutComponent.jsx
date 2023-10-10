@@ -1,6 +1,5 @@
 import Image from "next/image";
 import React from 'react';
-import YouTube from 'react-youtube';
 
 export default function AboutComponent() {
     
