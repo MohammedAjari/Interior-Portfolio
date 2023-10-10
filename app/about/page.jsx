@@ -29,9 +29,9 @@ export default function About() {
                             height={360}
                         >
                         </iframe>
-                        {/* <Image src="/image2/38.jpg" width={700} height={700} alt="" className="" /> */}
+                       
                     </div>
-                    <div className="">
+                    <div >
                         <p className="pb-8 tracking-wide" style={{ fontFamily: 'Open Sans', fontSize: 'large' }}>
                             As interior designers, we firmly believe in the need to revolutionize design education for the modern era. Our philosophy goes beyond traditional boundaries, seamlessly blending fresh societal perspectives with cutting-edge methodologies and contemporary tools that fuel creativity, streamline production, and facilitate communication. With meticulous attention to detail, we craft interior spaces that embody comfort and style, bridging the gap between form and function.
                             <br />
