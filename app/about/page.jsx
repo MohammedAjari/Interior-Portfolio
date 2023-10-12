@@ -5,43 +5,56 @@ export default function About() {
     return (
         <div>
             <div className="bg-[url('/image2/43.jpg')] bg-center bg-cover brightness-90 ">
-                <h1 className="container py-32 text-6xl font-semibold tracking-widest text-center text-white lg:py-64 lg:text-left font-ibm-plex-mono" style={{ fontFamily: 'Montserrat, sans-serif' }}>WHO ARE WE?</h1>
+                <h1 className="container py-14 text-6xl font-semibold tracking-widest text-center text-white lg:py-64 lg:text-left font-ibm-plex-mono" style={{ fontFamily: 'Montserrat, sans-serif' }}>WHO ARE WE?</h1>
 
             </div>
             <div className="container ">
-                <div className="py-2 lg:py-14">
-                    <h2 className="p-4 text-3xl font-semibold text-center lg:p-20 lg:text-5xl" style={{ fontFamily: 'Montserrat, sans-serif' }}>We have great idea & Interior Design</h2>
-                    <p className="text-2xl font-medium lg:w-1/2" style={{ fontFamily: 'Montserrat, sans-serif' }}>
-                        The Shaarda interior design company is a company that provides interior design services for homes, offices, apartments, and others. We provide the best interior design services for you. We have a team that is experienced in the field of interior.
-                    </p>
-                </div>
-                <div className="items-center lg:flex gap-x-8 pb-5 lg:mb-5">
-                    <div className="">
-                        {/* <YouTube videoId='4iEKJMglcoc' /> */}
+                <div className="py-1 lg:py-14">
+                    <h2 className="p-4 text-3xl font-semibold text-center lg:p-10 lg:text-5xl" style={{ fontFamily: 'Montserrat, sans-serif' }}>We have great idea & Interior Design</h2>
+
+                    <div className="lg:flex lg:flex-col justify-center items-center">
                         <iframe
-                            className='video'
+                            className='video text-center mb-5 lg:w-7/12 lg:h-96'
                             title='Youtube player'
                             sandbox='allow-same-origin allow-forms allow-popups allow-scripts allow-presentation'
                             src={`https://youtube.com/embed/4iEKJMglcoc?autoplay=1`}
-                            width={400}
-                            height={360}
+                            
                         >
                         </iframe>
-                       
+
+                        <div className='block lg:flex items-center justify-center '>
+                            <p className="text-2xl font-medium lg:w-1/2" style={{ fontFamily: 'Montserrat, sans-serif' }}>
+                                The Shaarda interior design company is a company that provides interior design services for homes, offices, apartments, and others. We provide the best interior design services for you. We have a team that is experienced in the field of interior.
+                            </p>
+
+                            <a className="inline-flex items-center gap-1 px-6 py-3 text-sm text-white rounded-full shadow-lg bg-gray-950 hover:bg-gray-800 hover:ring-2 hover:ring-gray-950 ring-offset-2" href="" style={{ fontFamily: 'Open Sans', fontSize: 'large' }}>
+                                Read More <TbArrowUpRight className="text-xl" />
+                            </a>
+                        </div>
+
                     </div>
-                    <div >
-                        <p className="pb-8 tracking-wide" style={{ fontFamily: 'Open Sans', fontSize: 'large' }}>
-                            As interior designers, we firmly believe in the need to revolutionize design education for the modern era. Our philosophy goes beyond traditional boundaries, seamlessly blending fresh societal perspectives with cutting-edge methodologies and contemporary tools that fuel creativity, streamline production, and facilitate communication. With meticulous attention to detail, we craft interior spaces that embody comfort and style, bridging the gap between form and function.
-                            <br />
-                            <br />
-                            Our commitment to innovation extends to our own design portfolio, where we meticulously curate and showcase our work, just as we would create a harmonious and inviting interior space for our clients.
-                            <br />
-                            <br />
-                            <span className="text-xl font-extrabold tracking-tight" style={{ fontFamily: 'Montserrat, sans-serif' }}>The backpiperARCH, we share a belief in the transformational power of people united in a common purpose.</span>
-                        </p>
-                        <a className="inline-flex items-center gap-1 px-6 py-3 text-sm text-white rounded-full shadow-lg bg-gray-950 hover:bg-gray-800 hover:ring-2 hover:ring-gray-950 ring-offset-2" href="" style={{ fontFamily: 'Open Sans', fontSize: 'large' }}>Read More <TbArrowUpRight className="text-xl" /> </a>
-                    </div>
+
+
+                    {/* <div className="lg:flex lg:flex-col justify-center">
+                        
+                        <div className='items-center'>
+                            <p className="text-2xl font-medium lg:w-1/2" style={{ fontFamily: 'Montserrat, sans-serif' }}>
+                                The Shaarda interior design company is a company that provides interior design services for homes, offices, apartments, and others. We provide the best interior design services for you. We have a team that is experienced in the field of interior.
+                            </p>
+                            <a className="inline-flex items-center gap-1 px-6 py-3 text-sm text-white rounded-full shadow-lg bg-gray-950 hover:bg-gray-800 hover:ring-2 hover:ring-gray-950 ring-offset-2" href="" style={{ fontFamily: 'Open Sans', fontSize: 'large' }}>
+                                Read More <TbArrowUpRight className="text-xl" />
+                            </a>
+                        </div>
+                    </div> */}
+
+
                 </div>
+                {/* <div className="lg:flex lg:justify-center gap-x-8 pb-5 lg:mb-5">
+                    <div className="flex items-center justify-center"> 
+
+                    </div>
+                </div> */}
+
                 {/* <div className="lg:py-20">
                     <div className="pt-8 pb-4">
                         <h1 className="text-4xl font-bold tracking-wider text-center">TEAM</h1>
