@@ -13,11 +13,11 @@ export default function Projects() {
         {
             id: 2,
             name: 'Drawing room for family time ',
-            description: 'Bedroom with a clean and comfortable design for your family, charming with a modern design. ',
+            description: 'Bedroom with a clean and comfortable design for your family.',
             image: '/image2/8.jpg',
             link: '',
         },
-        
+
         {
             id: 3,
             name: 'Kitchen look modern and clean',
@@ -25,7 +25,7 @@ export default function Projects() {
             image: '/image2/12.jpg',
             link: '',
         },
-        
+
         {
             id: 4,
             name: 'The Ideal Dining Space for Quality Family Time',
@@ -40,12 +40,12 @@ export default function Projects() {
         },
     ];
 
-    
+
 
     return (
         <div className="">
             <div className="bg-[url('/image/backgroundproject.jpg')] bg-center bg-cover ">
-                <h1 className="container py-64 text-6xl font-semibold tracking-widest text-white " style={{fontFamily: 'Montserrat, sans-serif'}}>OUR PROJECTS</h1>
+                <h1 className="container py-64 text-6xl font-semibold tracking-widest text-white " style={{ fontFamily: 'Montserrat, sans-serif' }}>OUR PROJECTS</h1>
             </div>
             <div className="container grid grid-cols-2 gap-8 py-8">
 
@@ -54,13 +54,14 @@ export default function Projects() {
                         <div>
                             <Image src={project.image} width={480} height={380} alt="" className="w-full" />
                         </div>
-                        <div className="absolute bottom-0 flex-col items-center justify-end w-full gap-32 p-12 text-xl text-white transition duration-300 ease-in-out translate-y-full bg-gradient-to-b from-transparent to-black group-hover:translate-y-0">
-                            <h1 className="text-2xl font-semibold" style={{fontFamily: 'Montserrat, sans-serif'}}>{project.name}</h1>
-                            <p className="py-4 " style={{fontFamily:'Open Sans' , fontSize: 'large'}}>{project.description}</p>
+                        <div className="absolute bottom-0 flex-col items-center justify-end w-full gap-32 lg:p-12 
+                    lg:text-xl text-xs text-white transition duration-300 ease-in-out translate-y-full bg-gradient-to-b from-transparent to-black group-hover:translate-y-0">
+                            <h1 className="text-xs lg:text-2xl font-semibold" style={{ fontFamily: 'Montserrat, sans-serif' }}>{project.name}</h1>
+                            <p className=" lg:py-4 text-xs " style={{}}>{project.description}</p>
                         </div>
                     </div>
                 ))}
-                
+
             </div>
         </div>
     )
