@@ -85,19 +85,10 @@ export default function Projects() {
                                 className="w-full"
                             />
                         </div>
-                        <div className="absolute bottom-0 flex-col items-center justify-end w-full gap-32 p-12 text-xl text-white transition duration-300 ease-in-out translate-y-full bg-gradient-to-b from-transparent to-black group-hover:translate-y-0">
-                            <h1
-                                className="text-2xl font-semibold"
-                                style={{ fontFamily: "Montserrat, sans-serif" }}
-                            >
-                                {project.name}
-                            </h1>
-                            <p
-                                className="py-4 "
-                                style={{ fontFamily: "Open Sans", fontSize: "large" }}
-                            >
-                                {project.description}
-                            </p>
+                        <div className="absolute bottom-0 flex-col items-center justify-end w-full gap-32 lg:p-12 
+                        lg:text-xl text-xs text-white transition duration-300 ease-in-out translate-y-full bg-gradient-to-b from-transparent to-black group-hover:translate-y-0">
+                            <h1 className="text-xs lg:text-2xl font-semibold" style={{ fontFamily: 'Montserrat, sans-serif' }}>{project.name}</h1>
+                            <p className=" lg:py-4 text-xs " style={{}}>{project.description}</p>
                         </div>
                     </div>
                 ))}
