@@ -73,14 +73,31 @@ export default function Projects() {
             </div>
             <div className="container grid grid-cols-2 gap-8 py-8">
                 {projects.map((project) => (
-                    <div key={project.id} className="relative overflow-hidden rounded-xl group">
+                    <div
+                        key={project.id}
+                        className="relative overflow-hidden rounded-xl group">
                         <div>
-                            <Image src={project.image} width={480} height={380} alt="" className="w-full" />
+                            <Image
+                                src={project.image}
+                                width={480}
+                                height={380}
+                                alt=""
+                                className="w-full"
+                            />
                         </div>
-                        <div className="absolute bottom-0 flex-col items-center justify-end w-full gap-32 lg:p-12 
-                    lg:text-xl text-xs text-white transition duration-300 ease-in-out translate-y-full bg-gradient-to-b from-transparent to-black group-hover:translate-y-0">
-                            <h1 className="text-xs lg:text-2xl font-semibold" style={{ fontFamily: 'Montserrat, sans-serif' }}>{project.name}</h1>
-                            <p className=" lg:py-4 text-xs " style={{}}>{project.description}</p>
+                        <div className="absolute bottom-0 flex-col items-center justify-end w-full gap-32 p-12 text-xl text-white transition duration-300 ease-in-out translate-y-full bg-gradient-to-b from-transparent to-black group-hover:translate-y-0">
+                            <h1
+                                className="text-2xl font-semibold"
+                                style={{ fontFamily: "Montserrat, sans-serif" }}
+                            >
+                                {project.name}
+                            </h1>
+                            <p
+                                className="py-4 "
+                                style={{ fontFamily: "Open Sans", fontSize: "large" }}
+                            >
+                                {project.description}
+                            </p>
                         </div>
                     </div>
                 ))}
