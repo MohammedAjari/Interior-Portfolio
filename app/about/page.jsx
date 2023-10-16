@@ -5,16 +5,16 @@ export default function About() {
     return (
         <div>
             <div className="bg-[url('/image2/43.jpg')] bg-center bg-cover brightness-90 ">
-                <h1 className="container py-14 text-6xl font-semibold tracking-widest text-center text-white lg:py-64 lg:text-left font-ibm-plex-mono" style={{ fontFamily: 'Montserrat, sans-serif' }}>WHO ARE WE?</h1>
+                <h1 className="container py-14 text-5xl lg:text-6xl font-semibold tracking-widest text-center text-white lg:py-64 lg:text-left font-ibm-plex-mono" style={{ fontFamily: 'Montserrat, sans-serif' }}>WHO ARE WE?</h1>
 
             </div>
             <div className="container ">
                 <div className="py-1 lg:py-14">
                     <h2 className="p-4 text-3xl font-semibold text-center lg:p-10 lg:text-5xl" style={{ fontFamily: 'Montserrat, sans-serif' }}>We have great idea & Interior Design</h2>
 
-                    <div className="lg:flex lg:flex-col justify-center items-center">
+                    <div className="flex lg:flex lg:flex-col flex-col justify-center  items-center ">
                         <iframe
-                            className='video text-center mb-5 lg:w-7/12 lg:h-96'
+                            className='video  my-5 w-11/12 lg:w-7/12 lg:h-96'
                             title='Youtube player'
                             sandbox='allow-same-origin allow-forms allow-popups allow-scripts allow-presentation'
                             src={`https://youtube.com/embed/4iEKJMglcoc?autoplay=1`}
@@ -22,13 +22,13 @@ export default function About() {
                         >
                         </iframe>
 
-                        <div className='block lg:flex items-center justify-center '>
+                        <div className='lg:flex items-center justify-center '>
                             <p className="text-2xl font-medium lg:w-1/2" style={{ fontFamily: 'Montserrat, sans-serif' }}>
                                 The Shaarda interior design company is a company that provides interior design services for homes, offices, apartments, and others. We provide the best interior design services for you. We have a team that is experienced in the field of interior.
                             </p>
 
 
-                            <a className="inline-flex items-center gap-1 px-6 py-3 text-sm text-white rounded-full shadow-lg bg-gray-950 hover:bg-gray-800 hover:ring-2 hover:ring-gray-950 ring-offset-2" href="" style={{ fontFamily: 'Open Sans', fontSize: 'large' }}>
+                            <a className="inline-flex my-5 items-center gap-1 px-6 py-3 text-sm text-white rounded-full shadow-lg bg-gray-950 hover:bg-gray-800 hover:ring-2 hover:ring-gray-950 ring-offset-2" href="" style={{ fontFamily: 'Open Sans', fontSize: 'large' }}>
                                 Read More <TbArrowUpRight className="text-xl" />
                             </a>
                         </div>
