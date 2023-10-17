@@ -30,29 +30,32 @@ export default function Projects() {
         },
         {
             id: 2,
-            name: "Drawing room for family time ",
+            name: "The Ideal Dining Space for Quality Family Time",
             description:
-                "Bedroom with a clean and comfortable design for your family, charming with a modern design. ",
-            image: "/image2/8.jpg",
-            link: "",
+                "Discover a Dining Room that Blends Clean Comfort with Modern Charm for Your Family's Enjoyment. ",
+            image: "/image2/35.jpg",
         },
+
 
         {
             id: 3,
             name: "Kitchen look modern and clean",
             description:
                 "kitchen look modern and clean. charming with a modern design. ",
-            image: "/image2/12.jpg",
+            image: "/image2/50.jpg",
             link: "",
         },
 
         {
             id: 4,
-            name: "The Ideal Dining Space for Quality Family Time",
+            name: "Drawing room for family time ",
             description:
-                "Discover a Dining Room that Blends Clean Comfort with Modern Charm for Your Family's Enjoyment. ",
-            image: "/image2/35.jpg",
+                "Bedroom with a clean and comfortable design for your family, charming with a modern design. ",
+            image: "/image2/49.jpg",
+            link: "",
         },
+
+
         {
             id: 5,
             name: "The Perfect Sacred Space for Spiritual Moments",
