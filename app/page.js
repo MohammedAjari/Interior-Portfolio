@@ -4,6 +4,7 @@ import CatalogueSection from "@/components/CatalogueSection";
 import CompanySection from "@/components/CompanySection";
 import ContactSection from "@/components/ContactSection";
 import HeroSection from "@/components/HeroSection";
+// import Preloader from "@/components/PreLoader";
 
 export default function Home() {
   return (

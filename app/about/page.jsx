@@ -4,7 +4,7 @@ import { TbArrowUpRight } from "react-icons/tb"
 export default function About() {
     return (
         <div>
-            <div className="bg-[url('/image2/43.jpg')] bg-center bg-cover brightness-90 ">
+            <div className="bg-[url('/image2/52.jpg')] bg-center bg-cover brightness-90 ">
                 <h1 className="container py-14 text-5xl lg:text-6xl font-semibold tracking-widest text-center text-white lg:py-64 lg:text-left font-ibm-plex-mono" style={{ fontFamily: 'Montserrat, sans-serif' }}>WHO ARE WE?</h1>
 
             </div>
@@ -34,21 +34,6 @@ export default function About() {
                         </div>
 
                     </div>
-
-
-                    {/* <div className="lg:flex lg:flex-col justify-center">
-                        
-                        <div className='items-center'>
-                            <p className="text-2xl font-medium lg:w-1/2" style={{ fontFamily: 'Montserrat, sans-serif' }}>
-                                The Shaarda interior design company is a company that provides interior design services for homes, offices, apartments, and others. We provide the best interior design services for you. We have a team that is experienced in the field of interior.
-                            </p>
-                            <a className="inline-flex items-center gap-1 px-6 py-3 text-sm text-white rounded-full shadow-lg bg-gray-950 hover:bg-gray-800 hover:ring-2 hover:ring-gray-950 ring-offset-2" href="" style={{ fontFamily: 'Open Sans', fontSize: 'large' }}>
-                                Read More <TbArrowUpRight className="text-xl" />
-                            </a>
-                        </div>
-                    </div> */}
-
-
                 </div>
                 {/* <div className="lg:flex lg:justify-center gap-x-8 pb-5 lg:mb-5">
                     <div className="flex items-center justify-center"> 
