@@ -4,7 +4,7 @@ import { TbArrowUpRight } from "react-icons/tb"
 export default function About() {
     return (
         <div>
-            <div className="bg-[url('/image2/52.jpg')] bg-center bg-cover brightness-90 ">
+            <div className="bg-[url('/image2/43.jpg')] bg-center bg-cover brightness-90 ">
                 <h1 className="container py-14 text-5xl lg:text-6xl font-semibold tracking-widest text-center text-white lg:py-64 lg:text-left font-ibm-plex-mono" style={{ fontFamily: 'Montserrat, sans-serif' }}>WHO ARE WE?</h1>
 
             </div>

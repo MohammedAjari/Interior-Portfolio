@@ -25,7 +25,7 @@ export default function AboutComponent() {
                         🔸 Classic and aesthetic designs tend to have a timeless quality, ensuring that your room's beauty remains relevant over the years.
                         <br /><br />
                         🔸 A colorful and aesthetically pleasing room can stimulate creativity and imagination. It's an inspiring environment for artistic pursuits.
-                        <br/>
+                        <br />
                     </p>
                     <Link className="inline-flex items-center px-8 py-3 text-white rounded-full shadow-lg bg-gray-950 hover:bg-gray-800 hover:ring-2 lg:ml-10 hover:ring-gray-950 ring-offset-2 " href="/projects" style={{ fontFamily: 'Open Sans', fontSize: 'large' }} >Explore More <TbArrowUpRight className="w-5 h-5 ml-2" /></Link>
                 </div>
