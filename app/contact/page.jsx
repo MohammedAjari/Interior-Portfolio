@@ -109,14 +109,22 @@ export default function Contact() {
           </div>
           <div className="lg:ml-4">
             <div className="relative h-[300px] lg:h-[450px]">
-              <iframe
+              {/* <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3649.0893659478047!2d73.1953682123045!3d22.356428199657113!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395fcedb10aa5b4b%3A0xede02139206e643!2sSankalp%20Restaurant!5e0!3m2!1sen!2sin!4v1696260628873!5m2!1sen!2sin"
                 width="100%"
                 height="100%"
                 style={{ border: "0" }}
                 allowFullScreen=""
                 loading="lazy"
-              ></iframe>
+              ></iframe> */}
+
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3689.9260121863063!2d73.19536417527178!3d22.35642237964629!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395fcf5c583f9dd3%3A0x3d3d47bc537ed490!2sPhoenix%20Avenue!5e0!3m2!1sen!2sin!4v1698076976164!5m2!1sen!2sin" 
+              width="100%" 
+              height="100%" 
+              style={{ border: "0" }} 
+              allowfullscreen="" 
+              loading="lazy" >
+              </iframe>
             </div>
             <div className="flex items-center mt-5">
               <div className="bg-orange-400 p-5 rounded-full mr-4">
