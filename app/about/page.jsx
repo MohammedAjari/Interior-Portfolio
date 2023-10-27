@@ -14,10 +14,10 @@ export default function About() {
 
                     <div className="flex lg:flex lg:flex-col flex-col justify-center  items-center ">
                         <iframe
-                            className='video  my-5 w-11/12 lg:w-7/12 lg:h-96'
+                            className='video  my-5 w-11/12 lg:w-8/12 lg:h-96'
                             title='Youtube player'
                             sandbox='allow-same-origin allow-forms allow-popups allow-scripts allow-presentation'
-                            src={`https://youtube.com/embed/4iEKJMglcoc?autoplay=1`}
+                            src={`https://youtube.com/embed/wutzZedyTUY?autoplay=1`}
                             
                         >
                         </iframe>
