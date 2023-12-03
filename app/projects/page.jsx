@@ -67,7 +67,7 @@ export default function Projects() {
 
     return (
         <div className="overflow-hidden">
-            <div className="bg-[url('/image/backgroundproject.jpg')] bg-center bg-cover">
+            <div className="bg-[url('/image2/52.jpg')] bg-center bg-cover">
                 <h1
                     className="container py-64 text-5xl lg:text-6xl font-semibold tracking-widest text-white "
                     style={{ fontFamily: "Montserrat, sans-serif" }}

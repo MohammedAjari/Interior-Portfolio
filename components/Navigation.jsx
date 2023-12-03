@@ -7,6 +7,7 @@ import { TbArrowUpRight } from "react-icons/tb";
 const nav = [
     { href: '/', label: 'HOME' },
     { href: '/projects', label: 'PROJECTS' },
+    { href: '/services', label: 'SERVICES' },
     { href: '/about', label: 'ABOUT US' },
     { href: '/gallery', label: 'GALLERY' },
 ]
