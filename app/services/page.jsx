@@ -28,14 +28,14 @@ const ServicePackage = ({ title, description, price2BHK, price3BHK, price4BHK, i
         <div className="flex flex-col lg:flex-row justify-between items-center  ">
         
             <div className="flex flex-col lg:flex-row lg:space-x-6">
-                <span className="text-xl " style={{ fontFamily: "Montserrat, sans-serif" }}>2 BHK Basic Packages
-                    <p className="rounded border text-xl bg-orange-400" style={{ fontFamily: "Montserrat, sans-serif", fontWeight: '900', textTransform: 'Uppercase', borderRadius: '10px', padding: '10px 40px' }}>{price2BHK}</p>
+                <span className="text-xl  " style={{ fontFamily: "Montserrat, sans-serif" , fontWeight: "Bold", fontStyle: "Italic" }}>2 BHK Basic Packages
+                    <p className="rounded border text-xl bg-orange-400 lg:mt-2" style={{ fontFamily: "Montserrat, sans-serif", fontWeight: '900', textTransform: 'Uppercase', borderRadius: '10px', padding: '10px 40px' }}>{price2BHK}</p>
                 </span>
-                <span className="text-xl" style={{ fontFamily: "Montserrat, sans-serif" }}>3 BHK Basic Packages
-                    <p className="rounded border text-xl bg-orange-400" style={{ fontFamily: "Montserrat, sans-serif", fontWeight: '900', textTransform: 'Uppercase', borderRadius: '10px', padding: '10px 40px' }}>{price3BHK}</p>
+                <span className="text-xl" style={{ fontFamily: "Montserrat, sans-serif", fontWeight: "Bold", fontStyle: "Italic" }}>3 BHK Basic Packages
+                    <p className="rounded border text-xl bg-orange-400 lg:mt-2" style={{ fontFamily: "Montserrat, sans-serif", fontWeight: '900', textTransform: 'Uppercase', borderRadius: '10px', padding: '10px 40px' }}>{price3BHK}</p>
                 </span>
-                <span className="text-xl" style={{ fontFamily: "Montserrat, sans-serif"  }}>4 BHK Basic Packages
-                    <p className="rounded border text-xl bg-orange-400" style={{ fontFamily: "Montserrat, sans-serif", fontWeight: '900', textTransform: 'Uppercase', borderRadius: '10px', padding: '10px 40px' }}>{price4BHK}</p>
+                <span className="text-xl" style={{ fontFamily: "Montserrat, sans-serif", fontWeight: "Bold", fontStyle: "Italic"  }}>4 BHK Basic Packages
+                    <p className="rounded border text-xl bg-orange-400 lg:mt-2" style={{ fontFamily: "Montserrat, sans-serif", fontWeight: '900', textTransform: 'Uppercase', borderRadius: '10px', padding: '10px 40px' }}>{price4BHK}</p>
                 </span>
             </div>
             <div className="w-full h-60 mt-4 md:ml-3 lg:w-4/12 lg:h-60 relative">
