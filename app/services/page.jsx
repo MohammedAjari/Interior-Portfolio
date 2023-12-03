@@ -19,27 +19,30 @@ export const metadata = {
     ],
 };
 
-const ServicePackage = ({ title, description, price2BHK, price3BHK, price4BHK, imageSrc }) => (
+const ServicePackage = ({ title, description, price2BHK, price3BHK, price4BHK, imageSrc, packageId }) => (
     <div className=" p-2 ">
         <h2 className="text-4xl font-semibold mb-5" style={{ fontFamily: "Montserrat, sans-serif" }}>{title}</h2>
 
         {/* <p className="mb-4">{description}</p> */}
         <hr className="border-t-2 border-orange-400 lg:w-3/5 mb-5" />
         <div className="flex flex-col lg:flex-row justify-between items-center  ">
-        
+
             <div className="flex flex-col lg:flex-row lg:space-x-6">
-                <span className="text-xl  " style={{ fontFamily: "Montserrat, sans-serif" , fontWeight: "Bold", fontStyle: "Italic" }}>2 BHK Basic Packages
+                <span className="text-xl  " style={{ fontFamily: "Montserrat, sans-serif", fontWeight: "Bold", fontStyle: "Italic" }}>
+                    {packageId === 2 ? "2 BHK Premium Package" : packageId === 3 ? "2 BHK Platinum Package" : "2 BHK Basic Package"}
                     <p className="rounded border text-xl bg-orange-400 lg:mt-2" style={{ fontFamily: "Montserrat, sans-serif", fontWeight: '900', textTransform: 'Uppercase', borderRadius: '10px', padding: '10px 40px' }}>{price2BHK}</p>
                 </span>
-                <span className="text-xl" style={{ fontFamily: "Montserrat, sans-serif", fontWeight: "Bold", fontStyle: "Italic" }}>3 BHK Basic Packages
+                <span className="text-xl" style={{ fontFamily: "Montserrat, sans-serif", fontWeight: "Bold", fontStyle: "Italic" }}>
+                    {packageId === 2 ? "3 BHK Premium Package" : packageId === 3 ? "3 BHK Platinum Package" : "3 BHK Basic Package"}
                     <p className="rounded border text-xl bg-orange-400 lg:mt-2" style={{ fontFamily: "Montserrat, sans-serif", fontWeight: '900', textTransform: 'Uppercase', borderRadius: '10px', padding: '10px 40px' }}>{price3BHK}</p>
                 </span>
-                <span className="text-xl" style={{ fontFamily: "Montserrat, sans-serif", fontWeight: "Bold", fontStyle: "Italic"  }}>4 BHK Basic Packages
+                <span className="text-xl" style={{ fontFamily: "Montserrat, sans-serif", fontWeight: "Bold", fontStyle: "Italic" }}>
+                    {packageId === 2 ? "4 BHK Premium Package" : packageId === 3 ? "4 BHK Platinum Package" : "4 BHK Basic Package"}
                     <p className="rounded border text-xl bg-orange-400 lg:mt-2" style={{ fontFamily: "Montserrat, sans-serif", fontWeight: '900', textTransform: 'Uppercase', borderRadius: '10px', padding: '10px 40px' }}>{price4BHK}</p>
                 </span>
             </div>
             <div className="w-full h-60 mt-4 md:ml-3 lg:w-4/12 lg:h-60 relative">
-                <Image src={imageSrc} layout="fill" objectFit="cover" style={{borderRadius: '10px'}} alt="" />
+                <Image src={imageSrc} layout="fill" objectFit="cover" style={{ borderRadius: '10px' }} alt="" />
             </div>
         </div>
 
@@ -144,6 +147,7 @@ export default function Services() {
                             price3BHK={pkg.price3BHK}
                             price4BHK={pkg.price4BHK}
                             imageSrc={pkg.imageSrc}
+                            packageId={pkg.id}
                         />
                     </div>
                 ))}
